@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>CRYSTALS COLLECTOR GAME</title>
+</head>
+
+    
+<body class="wallpaper">
+
+    <div class="container">
+        <div class="row" id="row1">
+            <h1 class="header">Crystals Collector!</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 instruction">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-6 randomNumber">Random Generated Number</div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2 totalWL">
+                <div class="wins">Wins</div>
+                <div class="losses">Losses</div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-3 gems">
+                <div id="img1">
+                    <img src="images/blue-gem.png" alt="bluegem" height="120" width="120">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div id="img2">
+                    <img src="/images/S2088YOP__60368.1546574455.jpg" alt="yellowgem" height="120" width="120">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div id="img3">
+                    <img src="/images/purepng.webp" alt="redgem" height="120" width="120">
+
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div id="img4">
+
+                    <img src="/images/tiger-eye-gemstone-500x500.jpg" alt="tigergem" height="120" width="120">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-6 totalScore">Your total score is :</div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-6 scoreDisplay">Your Score</div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascript/game.js"></script>
+    
+    
+</body>
