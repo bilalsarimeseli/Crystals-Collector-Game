@@ -29,9 +29,14 @@
  	border: 2px solid black; 
  	background-color: cadetblue; 
 	opacity: 0.6; 
-	font-family: 'cursive, 'sans-serif'; 
-	color: brown;
-
+	font-family: sans-serif;
+	width: 590px;
+	height: 50px;
+	text-align: left;
+	color: white;
+	font-size: 20px;
+	vertical-align: middle;
+	align-items: center;
  }
 
 p {
@@ -46,11 +51,6 @@ p {
 	color: green;
 	font-size: 200%;
 	font-family: 'cursive, 'sans-serif'; 
- }
-
- .wallpaper { 
-	background-image: url("../images/wallpaper.jpg");
-	background-size: 100%;
  }
 
  .header { 
@@ -75,5 +75,10 @@ p {
 }
 
 .wallpaper {
-    background-image:url(/images/beige-tiles.png);
+	background-image: url(../images/beige-tiles.png)
 }
+
+.rowimg {
+	width: 800px;
+}
+
